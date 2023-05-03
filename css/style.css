@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container {
+  position: relative;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.img {
+  position: absolute;
+  border: 1px solid #afafaf;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img:hover {
+  box-shadow: 1px 1px 5px black;
+}
